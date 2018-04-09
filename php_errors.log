@@ -52,3 +52,7 @@ Stack trace:
 [12-Feb-2018 08:16:58 UTC] PHP  11. Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain->getAllClassNames() /home/ubuntu/workspace/symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:114
 [12-Feb-2018 08:16:58 UTC] PHP  12. Doctrine\Common\Persistence\Mapping\Driver\AnnotationDriver->getAllClassNames() /home/ubuntu/workspace/symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/MappingDriverChain.php:128
 [12-Feb-2018 08:16:58 UTC] PHP  13. require_once() /home/ubuntu/workspace/symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/AnnotationDriver.php:236
+[09-Apr-2018 06:26:05 UTC] PHP Fatal error:  Uncaught Error: Class 'AppKernel' not found in /home/ubuntu/workspace/web/app.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/web/app.php on line 10

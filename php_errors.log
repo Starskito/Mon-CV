@@ -1,0 +1,54 @@
+[12-Feb-2018 07:52:24 UTC] PHP Warning:  Uncaught exception 'Symfony\Component\Debug\Exception\ContextErrorException' with message 'Warning: require(/home/ubuntu/workspace/symfony/var/cache/dev/ContainerWnfdmhl/getCacheWarmerService.php): failed to open stream: No such file or directory' in /home/ubuntu/workspace/symfony/var/cache/dev/ContainerWnfdmhl/appDevDebugProjectContainer.php:584
+Stack trace:
+#0 /home/ubuntu/workspace/symfony/var/cache/dev/ContainerWnfdmhl/appDevDebugProjectContainer.php(584): ContainerWnfdmhl\appDevDebugProjectContainer::load()
+#1 /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php(297): ContainerWnfdmhl\appDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(673): Symfony\Component\DependencyInjection\Container->get('cache_warmer')
+#3 /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(137): Symfony\Component\HttpKernel\Ke in /home/ubuntu/workspace/symfony/var/cache/dev/ContainerWnfdmhl/appDevDebugProjectContainer.php on line 584
+[12-Feb-2018 07:52:24 UTC] PHP Stack trace:
+[12-Feb-2018 07:52:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/symfony/bin/console:0
+[12-Feb-2018 07:52:24 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/symfony/bin/console:27
+[12-Feb-2018 07:52:24 UTC] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:148
+[12-Feb-2018 07:52:24 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:63
+[12-Feb-2018 07:52:24 UTC] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 07:52:24 UTC] PHP   6. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:673
+[12-Feb-2018 07:52:24 UTC] PHP   7. ContainerWnfdmhl\appDevDebugProjectContainer->load() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:297
+[12-Feb-2018 07:52:24 UTC] PHP Fatal error:  ContainerWnfdmhl\appDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/symfony/var/cache/dev/ContainerWnfdmhl/getCacheWarmerService.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/symfony/var/cache/dev/ContainerWnfdmhl/appDevDebugProjectContainer.php on line 584
+[12-Feb-2018 07:52:24 UTC] PHP Stack trace:
+[12-Feb-2018 07:52:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/symfony/bin/console:0
+[12-Feb-2018 07:52:24 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/symfony/bin/console:27
+[12-Feb-2018 07:52:24 UTC] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:148
+[12-Feb-2018 07:52:24 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:63
+[12-Feb-2018 07:52:24 UTC] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 07:52:24 UTC] PHP   6. Symfony\Component\DependencyInjection\Container->get() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:673
+[12-Feb-2018 07:52:24 UTC] PHP   7. ContainerWnfdmhl\appDevDebugProjectContainer->load() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php:297
+[12-Feb-2018 07:52:40 UTC] PHP Warning:  include(/home/ubuntu/workspace/symfony/var/cache/dev/ContainerWnfdmhl/appDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/symfony/var/cache/dev/appDevDebugProjectContainer.php on line 7
+[12-Feb-2018 07:52:40 UTC] PHP Stack trace:
+[12-Feb-2018 07:52:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/symfony/bin/console:0
+[12-Feb-2018 07:52:40 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/symfony/bin/console:27
+[12-Feb-2018 07:52:40 UTC] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:148
+[12-Feb-2018 07:52:40 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:63
+[12-Feb-2018 07:52:40 UTC] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 07:52:40 UTC] PHP   6. include() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:636
+[12-Feb-2018 07:52:40 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/symfony/var/cache/dev/ContainerWnfdmhl/appDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/symfony/var/cache/dev/appDevDebugProjectContainer.php on line 7
+[12-Feb-2018 07:52:40 UTC] PHP Stack trace:
+[12-Feb-2018 07:52:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/symfony/bin/console:0
+[12-Feb-2018 07:52:40 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/symfony/bin/console:27
+[12-Feb-2018 07:52:40 UTC] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:148
+[12-Feb-2018 07:52:40 UTC] PHP   4. Symfony\Component\HttpKernel\Kernel->boot() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:63
+[12-Feb-2018 07:52:40 UTC] PHP   5. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:137
+[12-Feb-2018 07:52:40 UTC] PHP   6. include() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php:636
+[12-Feb-2018 08:16:58 UTC] PHP Fatal error:  Cannot redeclare class AppBundle\Entity\Formation in /home/ubuntu/workspace/symfony/src/AppBundle/Entity/Competences.php on line 14
+[12-Feb-2018 08:16:58 UTC] PHP Stack trace:
+[12-Feb-2018 08:16:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/symfony/bin/console:0
+[12-Feb-2018 08:16:58 UTC] PHP   2. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/symfony/bin/console:27
+[12-Feb-2018 08:16:58 UTC] PHP   3. Symfony\Bundle\FrameworkBundle\Console\Application->doRun() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:148
+[12-Feb-2018 08:16:58 UTC] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:71
+[12-Feb-2018 08:16:58 UTC] PHP   5. Symfony\Bundle\FrameworkBundle\Console\Application->doRunCommand() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:240
+[12-Feb-2018 08:16:58 UTC] PHP   6. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php:83
+[12-Feb-2018 08:16:58 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php:956
+[12-Feb-2018 08:16:58 UTC] PHP   8. Doctrine\Bundle\DoctrineBundle\Command\Proxy\CreateSchemaDoctrineCommand->execute() /home/ubuntu/workspace/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Command/Command.php:252
+[12-Feb-2018 08:16:58 UTC] PHP   9. Doctrine\ORM\Tools\Console\Command\SchemaTool\AbstractCommand->execute() /home/ubuntu/workspace/symfony/vendor/doctrine/doctrine-bundle/Command/Proxy/CreateSchemaDoctrineCommand.php:51
+[12-Feb-2018 08:16:58 UTC] PHP  10. Doctrine\Common\Persistence\Mapping\AbstractClassMetadataFactory->getAllMetadata() /home/ubuntu/workspace/symfony/vendor/doctrine/orm/lib/Doctrine/ORM/Tools/Console/Command/SchemaTool/AbstractCommand.php:59
+[12-Feb-2018 08:16:58 UTC] PHP  11. Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain->getAllClassNames() /home/ubuntu/workspace/symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php:114
+[12-Feb-2018 08:16:58 UTC] PHP  12. Doctrine\Common\Persistence\Mapping\Driver\AnnotationDriver->getAllClassNames() /home/ubuntu/workspace/symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/MappingDriverChain.php:128
+[12-Feb-2018 08:16:58 UTC] PHP  13. require_once() /home/ubuntu/workspace/symfony/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/Driver/AnnotationDriver.php:236
